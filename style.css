@@ -1,0 +1,359 @@
+/*HEADER*/
+body{
+    margin: 0;
+    padding: 0;
+} 
+
+.logo{
+    margin-right: 500px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+ul{
+   display: flex;
+   justify-content: end;
+}
+
+ul li{
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;  
+    margin: 20px;
+}
+
+ul li:hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.word-modif{
+    color: rgb(141, 141, 141);
+}
+
+/*SECTION 1*/
+
+.presentation{
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0,0.527),rgba(0, 0, 0,0.527)), 
+    url("img/img-header.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+}
+
+.presentation h1{
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+.presentation p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(196, 196, 196);
+    font-weight: 500;
+}
+
+.presentation .bouton{
+    display: flex;
+    justify-content: center;
+}
+
+.bouton p{
+    margin: 10px;
+    color: white;
+}
+
+.btn2 p{
+    font-size: 13px;
+    padding: 7.5px 13px;
+    background-color:rgb(186, 175, 82);
+}
+
+.btn1 p{
+    padding: 4px 13px;
+    border: 2px solid white;
+}
+
+.bouton a{
+    text-decoration: none;
+}
+
+.bouton .btn1:hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bouton .btn2:hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+/*SECTION 2*/
+
+.section2 h4{
+    margin-left: 10rem;
+    margin-top: 8rem;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(175, 175, 175);
+}
+
+.section2 hr{
+
+    margin-left: 10rem;
+    float: left;
+    width: 40px;
+    background-color: rgb(97, 97, 59);
+    height: 1px;
+}
+
+.left p{
+    margin-left: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(196, 196, 196);
+}
+
+.left h1{
+    overflow: hidden;
+    height: 34px;
+    font-size: 40px;
+    margin-left: 10rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.right img{
+    margin-top: 7.5rem;
+    height: 40vh;
+    width:32vw;
+    margin-left:10rem;
+}
+
+/*section 3*/
+
+.section3 .container3{
+    background-color: rgb(36, 36, 36);
+    min-height: 35rem;
+}
+
+.section3 img{
+    height: 45vh;
+    width: 27vw;
+}
+
+.container3 .top{
+    display: flex;
+    justify-content: center;
+
+}
+
+.top{
+    text-align: center;
+}
+
+.top h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.top h3{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(186, 175, 82);
+}
+
+.top p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(196, 196, 196);
+}
+
+.grilled{
+    padding: 40px 20px;
+}
+
+.king{
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.fillet{
+    background-color: white;
+    min-height: 100%;
+}
+
+.breast{
+    padding: 40px 20px;
+}
+
+.chicken{
+    background-color: white;
+}
+
+.bottom{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom h3{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(186, 175, 82);
+}
+
+.bottom h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.bottom p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(196, 196, 196);
+}
+
+.section3{
+    margin-top: 7rem;
+}
+
+.bouton-menu .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn p{
+    font-weight: 500;
+    padding: 7px 20px;
+    background-color:rgb(186, 175, 82);
+    color: white;
+}
+
+.btn a{
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/*section4*/
+.section4{
+    background-color: rgb(247, 247, 247);
+    min-height: 35rem;
+}
+
+.section4 h4{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(175, 175, 175);
+}
+
+.container4 hr{
+    width: 40px;
+    background-color: rgb(97, 97, 59);
+    height: 1px;
+
+}
+
+.section4 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.mesavis{
+    padding-top: 3rem;
+    display: flex ;
+    justify-content: space-evenly;
+
+}
+
+
+.mesavis h2{
+    font-family: 'Playfair Display', serif; 
+}
+
+.mesavis p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(175, 175, 175);
+}
+
+.mesavis p2{
+    color:rgb(186, 175, 82);
+    font-size: 25px;
+}
+
+.bloc4{
+    padding-top: 8rem;
+}
+
+/*section5*/
+
+.section5{
+    background: linear-gradient(rgba(0, 0, 0,0.527),rgba(0, 0, 0,0.527)), 
+    url("img/restaurant-hero-03.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 50rem;
+}
+
+.formulaire h2{
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.formulaire p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.left5 p3{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    padding-top: 20rem;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
